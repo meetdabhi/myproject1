@@ -1,0 +1,52 @@
+﻿@model List<DAL1.DemoTable>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int i = 1;
+}
+
+<h2>Demo Address</h2>
+<div class="row">
+    <div class="col-md-12">
+        <a href="@Url.Action("Detail","Demo")?Id=0" class="btn btn-sm btn-primary pull-right"><i class="glyphicon glyphicon-plus"></i>Add New</a>
+    </div>
+    <div class="clearfix"></div>
+    <div class="col-md-12">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                    <th>Action</th>
+
+                </tr>
+
+            </thead>
+            <tbody>
+                @{
+                    foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@i</td>
+                            <td>@item.Name</td>
+                            <td>@item.Address</td>
+                            
+                            <td>
+                                <a href="@Url.Action("Detail","Demo")?Id=@item.id" class="btn btn-sm btn-info"><i class="glyphicon glyphicon-edit"></i> Edit</a>
+                                <a href="@Url.Action("Delete","Demo")?Id=@item.id" class="btn btn-sm btn-danger"><i class="glyphicon glyphicon-trash"></i> Delete</a>
+                            </td>
+
+
+                        </tr>
+                        i++;
+
+                    }
+                }
+            </tbody>
+
+
+        </table>
+    </div>
+</div>
+

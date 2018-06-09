@@ -1,0 +1,9 @@
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\DAL1.dll.config
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\DAL1.dll
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\DAL1.pdb
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\EntityFramework.dll
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\EntityFramework.SqlServer.dll
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\EntityFramework.xml
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\bin\Debug\EntityFramework.SqlServer.xml
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\obj\Debug\DAL1.dll
+D:\Meet Dabhi\Application\CURDDEMO\DAL1\obj\Debug\DAL1.pdb
